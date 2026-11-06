@@ -1,0 +1,96 @@
+{
+  "total_campaign_support_logs_processed": 120000,
+  "total_enterprise_accounts_evaluated": 170,
+  "overall_certification_velocity_lift_pct": 38.0,
+  "mean_trading_desk_self_sufficiency_pct": 82.17,
+  "mean_sla_compliance_pct": 95.85,
+  "top_prioritized_product_feature": "FEAT_PACING_DIAGNOSTICS",
+  "vertical_breakdown": [
+    {
+      "vertical_category": "E-Commerce",
+      "enterprise_accounts": 35,
+      "campaign_support_logs": 30000,
+      "baseline_certification_days": 42.0,
+      "enabled_certification_days": 26.38,
+      "certification_velocity_lift_pct": 37.19,
+      "trading_desk_self_sufficiency_pct": 78.8,
+      "sla_attainment_pct": 94.2,
+      "mean_mttr_hours": 6.8
+    },
+    {
+      "vertical_category": "Retail",
+      "enterprise_accounts": 40,
+      "campaign_support_logs": 30000,
+      "baseline_certification_days": 44.5,
+      "enabled_certification_days": 27.72,
+      "certification_velocity_lift_pct": 37.71,
+      "trading_desk_self_sufficiency_pct": 81.05,
+      "sla_attainment_pct": 95.3,
+      "mean_mttr_hours": 6.45
+    },
+    {
+      "vertical_category": "Automotive",
+      "enterprise_accounts": 45,
+      "campaign_support_logs": 30000,
+      "baseline_certification_days": 47.0,
+      "enabled_certification_days": 29.05,
+      "certification_velocity_lift_pct": 38.19,
+      "trading_desk_self_sufficiency_pct": 83.3,
+      "sla_attainment_pct": 96.4,
+      "mean_mttr_hours": 6.1
+    },
+    {
+      "vertical_category": "Entertainment",
+      "enterprise_accounts": 50,
+      "campaign_support_logs": 30000,
+      "baseline_certification_days": 49.5,
+      "enabled_certification_days": 30.34,
+      "certification_velocity_lift_pct": 38.71,
+      "trading_desk_self_sufficiency_pct": 85.55,
+      "sla_attainment_pct": 97.5,
+      "mean_mttr_hours": 5.75
+    }
+  ],
+  "product_roadmap_proposals": [
+    {
+      "feature_proposal_code": "FEAT_PACING_DIAGNOSTICS",
+      "unblocked_issue_category": "RTB_Deal_Pacing",
+      "affected_enterprise_accounts": 65,
+      "target_sla_hours": 12.0,
+      "rice_priority_score": 41.86,
+      "projected_ticket_deflection_pct": 34.0
+    },
+    {
+      "feature_proposal_code": "FEAT_BID_SHADING_SIMULATOR",
+      "unblocked_issue_category": "Bid_Shading_Config",
+      "affected_enterprise_accounts": 59,
+      "target_sla_hours": 16.0,
+      "rice_priority_score": 31.27,
+      "projected_ticket_deflection_pct": 31.6
+    },
+    {
+      "feature_proposal_code": "FEAT_CDP_STREAMING_CONNECTOR",
+      "unblocked_issue_category": "DMP_CDP_Audience_Sync",
+      "affected_enterprise_accounts": 53,
+      "target_sla_hours": 24.0,
+      "rice_priority_score": 23.32,
+      "projected_ticket_deflection_pct": 29.2
+    },
+    {
+      "feature_proposal_code": "FEAT_AUTOMATED_VAST_VALIDATOR",
+      "unblocked_issue_category": "VAST_Verification_QA",
+      "affected_enterprise_accounts": 47,
+      "target_sla_hours": 8.0,
+      "rice_priority_score": 17.27,
+      "projected_ticket_deflection_pct": 26.8
+    },
+    {
+      "feature_proposal_code": "FEAT_OMNICHANNEL_MTA_API",
+      "unblocked_issue_category": "Multi_Touch_Attribution",
+      "affected_enterprise_accounts": 41,
+      "target_sla_hours": 24.0,
+      "rice_priority_score": 12.63,
+      "projected_ticket_deflection_pct": 24.4
+    }
+  ]
+}

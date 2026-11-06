@@ -1,0 +1,6 @@
+feature_proposal_code,unblocked_issue_category,affected_enterprise_accounts,target_sla_hours,rice_priority_score,projected_ticket_deflection_pct
+FEAT_PACING_DIAGNOSTICS,RTB_Deal_Pacing,65,12.0,41.86,34.0
+FEAT_BID_SHADING_SIMULATOR,Bid_Shading_Config,59,16.0,31.27,31.6
+FEAT_CDP_STREAMING_CONNECTOR,DMP_CDP_Audience_Sync,53,24.0,23.32,29.2
+FEAT_AUTOMATED_VAST_VALIDATOR,VAST_Verification_QA,47,8.0,17.27,26.8
+FEAT_OMNICHANNEL_MTA_API,Multi_Touch_Attribution,41,24.0,12.63,24.4

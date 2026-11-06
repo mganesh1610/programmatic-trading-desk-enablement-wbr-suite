@@ -1,0 +1,5 @@
+vertical_category,enterprise_accounts,campaign_support_logs,baseline_certification_days,enabled_certification_days,certification_velocity_lift_pct,trading_desk_self_sufficiency_pct,sla_attainment_pct,mean_mttr_hours
+E-Commerce,35,30000,42.0,26.38,37.19,78.8,94.2,6.8
+Retail,40,30000,44.5,27.72,37.71,81.05,95.3,6.45
+Automotive,45,30000,47.0,29.05,38.19,83.3,96.4,6.1
+Entertainment,50,30000,49.5,30.34,38.71,85.55,97.5,5.75
