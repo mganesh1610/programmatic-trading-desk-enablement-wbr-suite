@@ -1,0 +1,75 @@
+{
+  "total_evaluated_campaign_logs": 120000,
+  "overall_velocity_improvement_pct": 38.05,
+  "weighted_sla_compliance_pct": 95.89,
+  "total_sme_specialists_trained": 70,
+  "total_feedback_enhancements_prioritized": 60,
+  "cadences_covered": [
+    "Daily",
+    "Weekly",
+    "Monthly",
+    "Quarterly"
+  ],
+  "workstream_summary": [
+    {
+      "cohort_id": "CAD-PROG-W1",
+      "media_workstream": "Programmatic",
+      "platform_stack": "DV360, CM360, The Trade Desk",
+      "review_cadence": "Weekly",
+      "deployment_stage": "Production",
+      "evaluated_campaign_logs": 38400,
+      "sme_trained_specialists": 22,
+      "pre_adoption_cycle_hours": 18.0,
+      "post_adoption_cycle_hours": 11.0,
+      "velocity_improvement_pct": 38.89,
+      "sla_compliance_pct": 95.9,
+      "feedback_loop_enhancements_logged": 19,
+      "rice_priority_score": 312.5
+    },
+    {
+      "cohort_id": "CAD-PLAN-Q1",
+      "media_workstream": "Media Campaign Planning",
+      "platform_stack": "Advanced Excel, SQL Joins & CTEs, Power BI, Tableau",
+      "review_cadence": "Quarterly",
+      "deployment_stage": "Production",
+      "evaluated_campaign_logs": 19800,
+      "sme_trained_specialists": 14,
+      "pre_adoption_cycle_hours": 22.0,
+      "post_adoption_cycle_hours": 13.9,
+      "velocity_improvement_pct": 36.82,
+      "sla_compliance_pct": 95.7,
+      "feedback_loop_enhancements_logged": 16,
+      "rice_priority_score": 284.0
+    },
+    {
+      "cohort_id": "CAD-SRCH-D1",
+      "media_workstream": "Paid Search",
+      "platform_stack": "SA360, Google Ads",
+      "review_cadence": "Daily",
+      "deployment_stage": "Production",
+      "evaluated_campaign_logs": 34200,
+      "sme_trained_specialists": 18,
+      "pre_adoption_cycle_hours": 14.5,
+      "post_adoption_cycle_hours": 8.8,
+      "velocity_improvement_pct": 39.31,
+      "sla_compliance_pct": 96.4,
+      "feedback_loop_enhancements_logged": 14,
+      "rice_priority_score": 248.0
+    },
+    {
+      "cohort_id": "CAD-SOCL-M1",
+      "media_workstream": "Paid Social",
+      "platform_stack": "Meta Ads, GA4",
+      "review_cadence": "Monthly",
+      "deployment_stage": "Production",
+      "evaluated_campaign_logs": 27600,
+      "sme_trained_specialists": 16,
+      "pre_adoption_cycle_hours": 12.0,
+      "post_adoption_cycle_hours": 7.5,
+      "velocity_improvement_pct": 37.5,
+      "sla_compliance_pct": 95.4,
+      "feedback_loop_enhancements_logged": 11,
+      "rice_priority_score": 195.0
+    }
+  ]
+}
