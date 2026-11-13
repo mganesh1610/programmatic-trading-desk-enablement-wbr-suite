@@ -1,0 +1,142 @@
+{
+  "module": "ai_trafficking_sla_gtm_governance",
+  "dataset_sha256": {
+    "incident_event_log_csv": "fd184bbfd62329cfe093e99da2ea7071905f2ead91900b448eb2635870821bef",
+    "online_shoppers_intention_csv": "b3055ee355f59134d851d32641183cb4a8b45def7124d2f50442a042f358e0d9"
+  },
+  "combined_records_processed": 154042,
+  "incident_event_snapshots": 141712,
+  "unique_consolidated_tickets": 24918,
+  "event_row_consolidation_pct": 82.42,
+  "distinct_assignment_queues": 71,
+  "routing_distribution": {
+    "in_house_trading_lead_tickets": 678,
+    "outsourced_trafficking_support_tickets": 24240
+  },
+  "sla_and_cycle_time_metrics": {
+    "first_touch_tickets": 13549,
+    "reassigned_tickets": 11369,
+    "first_touch_sla_compliance_pct": 78.39,
+    "reassigned_sla_compliance_pct": 45.58,
+    "sla_compliance_lift_pp": 32.81,
+    "first_touch_median_resolution_hours": 1.32,
+    "reassigned_median_resolution_hours": 80.15,
+    "median_cycle_time_reduction_pct": 98.36
+  },
+  "ai_escalation_risk_classifier": {
+    "train_tickets": 17442,
+    "holdout_tickets": 7476,
+    "holdout_breach_prevalence_pct": 23.29,
+    "holdout_roc_auc": 0.9366,
+    "top_20pct_breach_capture_pct": 66.57
+  },
+  "rice_product_workflow_backlog": [
+    {
+      "workflow_id": "WF-01",
+      "initiative": "AI Pre-Launch VAST & Creative Spec Validator",
+      "reach": 950,
+      "impact": 3.0,
+      "confidence": 0.9,
+      "effort_weeks": 2.0,
+      "rice_score": 1282.5
+    },
+    {
+      "workflow_id": "WF-02",
+      "initiative": "Automated GTM/GA4/Adobe Pixel Parity Debugger",
+      "reach": 820,
+      "impact": 2.5,
+      "confidence": 0.85,
+      "effort_weeks": 2.0,
+      "rice_score": 871.25
+    },
+    {
+      "workflow_id": "WF-03",
+      "initiative": "Cross-DSP PG/PMP Deal ID Migration Checker",
+      "reach": 640,
+      "impact": 3.0,
+      "confidence": 0.85,
+      "effort_weeks": 3.0,
+      "rice_score": 544.0
+    },
+    {
+      "workflow_id": "WF-05",
+      "initiative": "Outsourced Trafficking SLA Escalation Router",
+      "reach": 900,
+      "impact": 2.0,
+      "confidence": 0.9,
+      "effort_weeks": 3.0,
+      "rice_score": 540.0
+    },
+    {
+      "workflow_id": "WF-04",
+      "initiative": "IAS/DoubleVerify Discrepancy Auto-Triage Bot",
+      "reach": 720,
+      "impact": 2.0,
+      "confidence": 0.8,
+      "effort_weeks": 2.5,
+      "rice_score": 460.8
+    }
+  ],
+  "gtm_ga4_adobe_tag_audit": {
+    "sessions_audited": 12330,
+    "conversions_audited": 1908,
+    "gtm_tags_fired": 11630,
+    "gtm_fire_rate_pct": 94.32,
+    "ga4_adobe_parity_mismatches_isolated": 20,
+    "raw_mismatch_rate_pct": 0.16
+  },
+  "governance_qa_gates_passed": 10,
+  "governance_qa_gates_total": 10,
+  "qa_gate_details": [
+    {
+      "gate_id": "SLA-01",
+      "description": "Event Snapshot Consolidation (141,712 -> 24,918 Unique Tickets)",
+      "passed": true
+    },
+    {
+      "gate_id": "SLA-02",
+      "description": "In-House Trading Lead vs Outsourced Routing Coverage",
+      "passed": true
+    },
+    {
+      "gate_id": "SLA-03",
+      "description": "First-Touch SLA Compliance Lift Verified (>25 pp)",
+      "passed": true
+    },
+    {
+      "gate_id": "SLA-04",
+      "description": "Median Resolution Cycle-Time Reduction Verified (>40%)",
+      "passed": true
+    },
+    {
+      "gate_id": "SLA-05",
+      "description": "Holdout Escalation Risk Classifier ROC-AUC >= 0.75",
+      "passed": true
+    },
+    {
+      "gate_id": "SLA-06",
+      "description": "RICE AI Workflow Backlog Ranked Across 5 Initiatives",
+      "passed": true
+    },
+    {
+      "gate_id": "GTM-07",
+      "description": "GTM Container Tag Firing Audit Across 12,330 Sessions",
+      "passed": true
+    },
+    {
+      "gate_id": "GTM-08",
+      "description": "GA4 & Adobe Analytics Conversion Parity Mismatch Isolation",
+      "passed": true
+    },
+    {
+      "gate_id": "GTM-09",
+      "description": "Assignment Queue Coverage (71 Queues Verified)",
+      "passed": true
+    },
+    {
+      "gate_id": "GTM-10",
+      "description": "SQLite Schema & Row Conservation Integrity",
+      "passed": true
+    }
+  ]
+}
